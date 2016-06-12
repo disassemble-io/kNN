@@ -4,7 +4,7 @@ package io.disassemble.knn.feature;
  * @author Tyler Sedlar
  * @since 5/17/16
  */
-public abstract class Feature<T> {
+public abstract class Feature<T> implements Comparable<Feature> {
 
     public final String key;
     public final T value;
@@ -25,5 +25,10 @@ public abstract class Feature<T> {
     @Override
     public String toString() {
         return (value + ":" + weight);
+    }
+
+    @Override
+    public int compareTo(Feature other) {
+        return key.compareToIgnoreCase(other.key);
     }
 }

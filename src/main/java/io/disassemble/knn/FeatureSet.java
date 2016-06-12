@@ -2,9 +2,7 @@ package io.disassemble.knn;
 
 import io.disassemble.knn.feature.Feature;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Predicate;
 
 /**
@@ -19,6 +17,7 @@ public class FeatureSet {
     public FeatureSet(String category, Feature... features) {
         this.category = category;
         this.features = features;
+        Arrays.sort(this.features);
     }
 
     public FeatureSet(Feature... features) {

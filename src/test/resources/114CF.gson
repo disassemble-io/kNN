@@ -1,0 +1,7660 @@
+{
+  "sets": [
+    {
+      "category": "aa",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ab",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ac",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ad",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ae",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "af",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ag",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ah",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ai",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "aj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ak",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "al",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "am",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "an",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ao",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ap",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "aq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ar",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 14,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "as",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "at",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "au",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "av",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "aw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 12,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ax",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 59,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ay",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 12,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 42,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "az",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 14,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 45,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ba",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bb",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bc",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 13,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bd",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "be",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bf",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 15,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 16,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bg",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 41,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 15,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bh",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bi",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 23,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bk",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bl",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 19,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bm",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bn",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bo",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bp",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 22,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "br",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bs",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bt",
+      "features": {
+        "access": {
+          "value": 1537,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bu",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 17,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bv",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bx",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "by",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 22,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "bz",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ca",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cb",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cc",
+      "features": {
+        "access": {
+          "value": 1537,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cd",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 23,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 11,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "a",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "b",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ce",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "c",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cf",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cg",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "d",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ch",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 14,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "e",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ci",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "f",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cj",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "g",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ck",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 47,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "h",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 12,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "i",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cl",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "j",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cm",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cn",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "k",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "co",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "l",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "m",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cp",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 23,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 42,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 10,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "n",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cr",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "o",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 25,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "p",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 26,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cs",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 24,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ct",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "q",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 14,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cu",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 20,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "r",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "s",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cv",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 15,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "t",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cx",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "u",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cy",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "v",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cz",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "w",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "x",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "y",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "z",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "da",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "db",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dc",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dd",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "de",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "df",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dg",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dh",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 28,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 28,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 7,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "di",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dk",
+      "features": {
+        "access": {
+          "value": 1537,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dl",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dm",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 18,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dn",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "do",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dp",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dr",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 38,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 7,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ds",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 64,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dt",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "du",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dv",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dw",
+      "features": {
+        "access": {
+          "value": 9729,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dx",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dy",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "dz",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ea",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eb",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ec",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ed",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ee",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ef",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eg",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eh",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ei",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ej",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ek",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "el",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "em",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "en",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eo",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ep",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 15,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "er",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 120,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "es",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "et",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "eu",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ev",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ew",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 8,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ex",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ey",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ez",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fa",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 24,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 15,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 8,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fb",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fc",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fd",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fe",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ff",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fg",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 12,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fh",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fi",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fk",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fl",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 24,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fm",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fn",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fo",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fp",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fr",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fs",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ft",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fu",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 12,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 136,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 10,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fv",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fx",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fy",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "fz",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "client",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 29,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ga",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gb",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gc",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gd",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ge",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gf",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gg",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 18,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gh",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gi",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 17,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gk",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gl",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gm",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gn",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "go",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gp",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gr",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gs",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gt",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gu",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gv",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 21,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 47,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 27,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 8,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gx",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gy",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "gz",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 21,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ha",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hc",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 5,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hd",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 24,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "he",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hf",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hg",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hh",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hi",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hj",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hk",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hl",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hm",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hn",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ho",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 2,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 1,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hq",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 8,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 5,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hr",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hs",
+      "features": {
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "ht",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hw",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 9,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hx",
+      "features": {
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 6,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hy",
+      "features": {
+        "access": {
+          "value": 48,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "hz",
+      "features": {
+        "access": {
+          "value": 1057,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 23,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 10,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "Utilities",
+      "features": {
+        "access": {
+          "value": 1,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    }
+  ]
+}

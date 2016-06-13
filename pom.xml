@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.github.disassemble-io</groupId>
             <artifactId>asm-framework-full</artifactId>
-            <version>87b26ff</version>
+            <version>64ebb6c</version>
             <scope>test</scope>
         </dependency>
         <dependency>

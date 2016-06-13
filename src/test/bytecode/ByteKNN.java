@@ -5,13 +5,14 @@ import io.disassemble.asm.ClassFactory;
 import io.disassemble.asm.JarArchive;
 import io.disassemble.knn.FeatureSet;
 import io.disassemble.knn.KNN;
+import io.disassemble.knn.Neighbor;
 import io.disassemble.knn.NeighborList;
 import io.disassemble.knn.feature.IntegerFeature;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.nio.file.Files;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author Tyler Sedlar
@@ -22,7 +23,7 @@ public class ByteKNN {
     private static final String JAR = "115-deob.jar";
     private static final String JSON_MAPPING = "114CF.gson";
 
-    private static final String TEST_CASE = null;//"VarpNode";
+    private static final String TEST_CASE = null;//"BasicByteBuffer";
     @SuppressWarnings("all")
     private static final boolean TESTING = (TEST_CASE != null && !TEST_CASE.isEmpty());
 
@@ -55,6 +56,7 @@ public class ByteKNN {
             return new IntegerFeature(entry.key, value, weight);
         });
         long total = 0;
+        Map<String, List<String>> mapping = new HashMap<>();
         for (FeatureSet lookup : jsonKNN.sets) {
             start = System.nanoTime();
             NeighborList neighbors = knn.compute(3, lookup);
@@ -71,8 +73,27 @@ public class ByteKNN {
                 } else {
                     System.out.printf("%s (%s) -> %s (???)\n", lookup.category, a, category);
                 }
+                if (TESTING && a.equals(TEST_CASE)) {
+                    System.out.printf("%s:\n", TEST_CASE);
+                    System.out.println("  " + lookup);
+                    for (Neighbor neighbor : neighbors.neighbors) {
+                        System.out.printf("  %s\n", neighbor);
+                    }
+                }
+            } else {
+                if (!mapping.containsKey(category)) {
+                    mapping.put(category, new ArrayList<>());
+                }
+                mapping.get(category).add(assumedIdentities.has(category) ?
+                        assumedIdentities.get(category).getAsString() : lookup.category);
             }
         }
+        mapping.entrySet().forEach(entry -> {
+            List<String> vals = entry.getValue();
+            if (!vals.isEmpty() && (vals.size() > 1 || vals.get(0).length() > 2)) {
+                System.out.println(entry.getKey() + " = " + Arrays.toString(vals.toArray()));
+            }
+        });
         System.out.printf("classified all in %.4f seconds\n", total / 1e9);
     }
 }

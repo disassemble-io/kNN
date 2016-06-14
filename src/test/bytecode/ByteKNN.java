@@ -1,18 +1,13 @@
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import io.disassemble.asm.Archive;
-import io.disassemble.asm.ClassFactory;
-import io.disassemble.asm.JarArchive;
-import io.disassemble.knn.FeatureSet;
-import io.disassemble.knn.KNN;
-import io.disassemble.knn.Neighbor;
-import io.disassemble.knn.NeighborList;
+import io.disassemble.knn.*;
+import io.disassemble.knn.feature.Feature;
 import io.disassemble.knn.feature.IntegerFeature;
-import org.junit.Before;
+import io.disassemble.knn.util.SourceEditor;
 import org.junit.Test;
 
-import java.nio.file.Files;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Tyler Sedlar
@@ -20,80 +15,45 @@ import java.util.*;
  */
 public class ByteKNN {
 
-    private static final String JAR = "115-deob.jar";
-    private static final String JSON_MAPPING = "114CF.gson";
+    private static final String OLD_MAPPING = "114CF.gson";
+    private static final String NEW_MAPPING = "115CF.gson";
 
-    private static final String TEST_CASE = null;//"BasicByteBuffer";
-    @SuppressWarnings("all")
-    private static final boolean TESTING = (TEST_CASE != null && !TEST_CASE.isEmpty());
+    private static final SourceEditor<JsonEntry, Feature> MAPPER = (entry) -> {
+        int value = entry.source.get("value").getAsInt();
+        double weight = entry.source.get("weight").getAsDouble();
+        return new IntegerFeature(entry.key, value, weight);
+    };
 
-    private Map<String, ClassFactory> classes;
-    private JsonObject oldIdentities, assumedIdentities;
-
-    @Before
-    public void setup() throws Exception {
-        Archive archive = new JarArchive(Resources.path(JAR).toFile());
-        archive.build();
-        classes = archive.classes();
-        oldIdentities = new JsonParser()
-                .parse(new String(Files.readAllBytes(Resources.path("114-MAP.gson"))))
-                .getAsJsonObject();
-        assumedIdentities = new JsonParser()
-                .parse(new String(Files.readAllBytes(Resources.path("115-MAP.gson"))))
-                .getAsJsonObject();
+    private Map<String, String> mapClasses(KNN oldKNN, KNN newKNN) {
+        List<String> categories = new ArrayList<>();
+        Map<String, String> mapping = new HashMap<>();
+        for (FeatureSet lookup : oldKNN.sets) {
+            NeighborList neighbors = newKNN.compute(3, lookup);
+            String category = neighbors.classify();
+            if (categories.contains(category)) {
+                for (Neighbor neighbor : neighbors.neighbors) {
+                    if (!categories.contains(neighbor.set.category)) {
+                        category = neighbor.set.category;
+                        break;
+                    }
+                }
+            }
+            categories.add(category);
+            mapping.put(lookup.category, category);
+        }
+        return mapping;
     }
 
     @Test
     public void test() throws Exception {
+        KNN oldKNN = KNN.fromJSON(Resources.path(OLD_MAPPING), MAPPER);
+        KNN newKNN = KNN.fromJSON(Resources.path(NEW_MAPPING), MAPPER);
         long start = System.nanoTime();
-        FeatureSet[] sets = ClassFeatures.spawnAll(classes);
+        Map<String, String> mapping = mapClasses(oldKNN, newKNN);
         long end = System.nanoTime();
-        System.out.printf("created feature sets in %.4f seconds\n", (end - start) / 1e9);
-        KNN knn = new KNN(sets);
-        KNN jsonKNN = KNN.fromJSON(Resources.path(JSON_MAPPING), (entry) -> {
-            int value = entry.source.get("value").getAsInt();
-            double weight = entry.source.get("weight").getAsDouble();
-            return new IntegerFeature(entry.key, value, weight);
-        });
-        long total = 0;
-        Map<String, List<String>> mapping = new HashMap<>();
-        for (FeatureSet lookup : jsonKNN.sets) {
-            start = System.nanoTime();
-            NeighborList neighbors = knn.compute(3, lookup);
-            String category = neighbors.classify();
-            end = System.nanoTime();
-            total += (end - start);
-            if (oldIdentities.has(lookup.category)) {
-                String a = oldIdentities.get(lookup.category).getAsString();
-                if (assumedIdentities.has(category)) {
-                    String b = assumedIdentities.get(category).getAsString();
-                    if (!a.equals(b)) {
-                        System.out.printf("%s (%s) -> %s (%s)\n", lookup.category, a, category, b);
-                    }
-                } else {
-                    System.out.printf("%s (%s) -> %s (???)\n", lookup.category, a, category);
-                }
-                if (TESTING && a.equals(TEST_CASE)) {
-                    System.out.printf("%s:\n", TEST_CASE);
-                    System.out.println("  " + lookup);
-                    for (Neighbor neighbor : neighbors.neighbors) {
-                        System.out.printf("  %s\n", neighbor);
-                    }
-                }
-            } else {
-                if (!mapping.containsKey(category)) {
-                    mapping.put(category, new ArrayList<>());
-                }
-                mapping.get(category).add(assumedIdentities.has(category) ?
-                        assumedIdentities.get(category).getAsString() : lookup.category);
-            }
-        }
-        mapping.entrySet().forEach(entry -> {
-            List<String> vals = entry.getValue();
-            if (!vals.isEmpty() && (vals.size() > 1 || vals.get(0).length() > 2)) {
-                System.out.println(entry.getKey() + " = " + Arrays.toString(vals.toArray()));
-            }
-        });
-        System.out.printf("classified all in %.4f seconds\n", total / 1e9);
+        System.out.printf("classified all in %.4f seconds\n", (end - start) / 1e9);
+        mapping.entrySet().forEach(
+                entry -> System.out.println(entry.getKey() + " -> " + entry.getValue())
+        );
     }
 }

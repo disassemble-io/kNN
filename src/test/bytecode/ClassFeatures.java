@@ -5,8 +5,11 @@ import io.disassemble.asm.visitor.ComplexityVisitor;
 import io.disassemble.knn.FeatureSet;
 import io.disassemble.knn.feature.Feature;
 import io.disassemble.knn.feature.IntegerFeature;
+import org.objectweb.asm.tree.AbstractInsnNode;
+import org.objectweb.asm.tree.FieldInsnNode;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -19,6 +22,8 @@ public class ClassFeatures {
 
     private static ComplexityVisitor COMPLEXITY_VISITOR = new ComplexityVisitor();
     private static CallGraph calls;
+
+    private static final Map<String, Integer> COMPLEXITIES = new HashMap<>();
 
     public static FeatureSet spawn(Map<String, ClassFactory> classes, ClassFactory factory,
                                    boolean localWeight) {
@@ -34,9 +39,10 @@ public class ClassFeatures {
         features.add(new IntegerFeature("ifaces", factory.interfaces().size()));
         features.add(new IntegerFeature("extended", extendCount(classes, factory)));
         if (!localWeight) {
+            features.add(new IntegerFeature("weighted-calls", weightedCalls(classes, factory), 0.0005D));
             features.add(new IntegerFeature("field-weights", fieldWeights(classes, factory)));
             features.add(new IntegerFeature("method-complexity", complexity(factory), 0.05D));
-            features.add(new IntegerFeature("call-complexity", avgCallComplexity(factory), 0.05D));
+            features.add(new IntegerFeature("call-complexity", callComplexity(factory), 0.05D));
         }
         return new FeatureSet(factory.name(), features.toArray(new Feature[features.size()]));
     }
@@ -45,7 +51,7 @@ public class ClassFeatures {
         return spawn(classes, factory, false);
     }
 
-    private static int weightOf(Map<String, ClassFactory> classes, String factory) {
+    private static int weightOfFactory(Map<String, ClassFactory> classes, String factory) {
         if (factory == null || !classes.containsKey(factory)) {
             return 0;
         } else {
@@ -89,61 +95,92 @@ public class ClassFeatures {
         return count;
     }
 
+    private static int weightedCalls(Map<String, ClassFactory> classes, ClassFactory cf) {
+        int weight = 0;
+        for (ClassMethod method : cf.methods) {
+            for (AbstractInsnNode ain : method.instructions().toArray()) {
+                if (ain instanceof FieldInsnNode) {
+                    weight += weightOfDesc(classes, ((FieldInsnNode) ain).desc);
+                }
+            }
+        }
+        return weight;
+    }
+
+    private static int weightOfDesc(Map<String, ClassFactory> classes, String desc) {
+        int weight = 0;
+        if (desc.endsWith("B")) {
+            weight += 100;
+        } else if (desc.endsWith("Z")) {
+            weight += 200;
+        } else if (desc.endsWith("I")) {
+            weight += 300;
+        } else if (desc.endsWith("S")) {
+            weight += 400;
+        } else if (desc.endsWith("J")) {
+            weight += 500;
+        } else if (desc.endsWith("C")) {
+            weight += 600;
+        } else if (desc.equals("D")) {
+            weight += 700;
+        } else if (desc.equals("F")) {
+            weight += 800;
+        } else if (desc.endsWith("Ljava/lang/String;")) {
+            weight += 900;
+        } else if (desc.endsWith(";")) {
+            weight += 1000;
+            String factory = desc.split("L")[1].split(";")[0];
+            if (classes.containsKey(factory)) {
+                weight += weightOfFactory(classes, factory);
+            }
+        }
+        int lastIdx = desc.lastIndexOf('[');
+        if (lastIdx != -1) {
+            lastIdx++;
+        }
+        int count = Math.max(0, lastIdx);
+        weight += (8 * count);
+        return weight;
+    }
+
     private static int fieldWeights(Map<String, ClassFactory> classes, ClassFactory cf) {
         int weight = 0;
         for (ClassField field : cf.fields) {
-            String desc = field.desc();
-            if (desc.endsWith("B")) {
-                weight += 100;
-            } else if (desc.endsWith("Z")) {
-                weight += 200;
-            } else if (desc.endsWith("I")) {
-                weight += 300;
-            } else if (desc.endsWith("S")) {
-                weight += 400;
-            } else if (desc.endsWith("J")) {
-                weight += 500;
-            } else if (desc.endsWith("C")) {
-                weight += 600;
-            } else if (desc.equals("D")) {
-                weight += 700;
-            } else if (desc.equals("F")) {
-                weight += 800;
-            } else if (desc.endsWith("Ljava/lang/String;")) {
-                weight += 900;
-            } else if (desc.endsWith(";")) {
-                weight += 1000;
-                String factory = desc.split("L")[1].split(";")[0];
-                if (classes.containsKey(factory)) {
-                    weight += weightOf(classes, factory);
-                }
-            }
-            int count = desc.length() - desc.replaceAll("\\[", "").length();
-            weight += (8 * count);
+            weight += weightOfDesc(classes, field.desc());
         }
         return weight;
     }
 
     private static int complexity(ClassFactory factory) {
         int complexity = 0;
-        for (ClassMethod method : factory.methods) {
-            method.accept(COMPLEXITY_VISITOR);
-            complexity += COMPLEXITY_VISITOR.complexity();
+        if (COMPLEXITIES.containsKey(factory.name())) {
+            complexity = COMPLEXITIES.get(factory.name());
+        } else {
+            for (ClassMethod method : factory.methods) {
+                method.accept(COMPLEXITY_VISITOR);
+                complexity += COMPLEXITY_VISITOR.complexity();
+            }
+            COMPLEXITIES.put(factory.name(), complexity);
         }
         return complexity;
     }
 
-    private static int avgCallComplexity(ClassFactory factory) {
+    private static int callComplexity(ClassFactory factory) {
         if (!calls.calls().containsKey(factory.name())) {
             return 0;
         } else {
             List<ClassMethod> methods = calls.calls().get(factory.name());
             AtomicInteger complexity = new AtomicInteger(0);
-            methods.forEach(call -> {
-                call.accept(COMPLEXITY_VISITOR);
-                complexity.addAndGet(COMPLEXITY_VISITOR.complexity());
-            });
-            return (complexity.get() / methods.size());
+            if (COMPLEXITIES.containsKey(factory.name())) {
+                complexity.set(COMPLEXITIES.get(factory.name()));
+            } else {
+                methods.forEach(call -> {
+                    call.accept(COMPLEXITY_VISITOR);
+                    complexity.addAndGet(COMPLEXITY_VISITOR.complexity());
+                });
+                COMPLEXITIES.put(factory.name(), complexity.get());
+            }
+            return complexity.get();
         }
     }
 }

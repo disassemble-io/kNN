@@ -4,7 +4,7 @@
       "category": "hi",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -26,6 +26,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1200,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -49,7 +53,7 @@
       "category": "ho",
       "features": {
         "call-complexity": {
-          "value": 339,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -71,6 +75,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 8000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -94,7 +102,7 @@
       "category": "hp",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -116,6 +124,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5392,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -139,7 +151,7 @@
       "category": "hq",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -161,6 +173,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -184,7 +200,7 @@
       "category": "hs",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 170,
           "weight": 0.05
         },
         "access": {
@@ -206,6 +222,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 67912,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 10,
@@ -229,7 +249,7 @@
       "category": "ht",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -251,6 +271,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -274,7 +298,7 @@
       "category": "hu",
       "features": {
         "call-complexity": {
-          "value": 125,
+          "value": 10,
           "weight": 0.05
         },
         "access": {
@@ -296,6 +320,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2600,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -319,7 +347,7 @@
       "category": "hv",
       "features": {
         "call-complexity": {
-          "value": 68,
+          "value": 58,
           "weight": 0.05
         },
         "access": {
@@ -341,6 +369,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 33664,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -364,7 +396,7 @@
       "category": "hw",
       "features": {
         "call-complexity": {
-          "value": 70,
+          "value": 3,
           "weight": 0.05
         },
         "access": {
@@ -386,6 +418,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 14284,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -432,6 +468,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 0,
           "weight": 1.0
@@ -454,7 +494,7 @@
       "category": "hz",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -476,6 +516,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 17860,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -499,7 +543,7 @@
       "category": "aa",
       "features": {
         "call-complexity": {
-          "value": 9,
+          "value": 38,
           "weight": 0.05
         },
         "access": {
@@ -521,6 +565,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 24895,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -544,7 +592,7 @@
       "category": "ab",
       "features": {
         "call-complexity": {
-          "value": 44,
+          "value": 27,
           "weight": 0.05
         },
         "access": {
@@ -566,6 +614,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9263,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 10,
@@ -589,7 +641,7 @@
       "category": "ac",
       "features": {
         "call-complexity": {
-          "value": 53,
+          "value": 87,
           "weight": 0.05
         },
         "access": {
@@ -611,6 +663,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 57128,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 33,
@@ -634,7 +690,7 @@
       "category": "ae",
       "features": {
         "call-complexity": {
-          "value": 6,
+          "value": 31,
           "weight": 0.05
         },
         "access": {
@@ -656,6 +712,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21585,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 12,
@@ -679,7 +739,7 @@
       "category": "af",
       "features": {
         "call-complexity": {
-          "value": 151,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -701,6 +761,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1663,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -724,7 +788,7 @@
       "category": "ag",
       "features": {
         "call-complexity": {
-          "value": 21,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -746,6 +810,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -769,7 +837,7 @@
       "category": "ah",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 60,
           "weight": 0.05
         },
         "access": {
@@ -791,6 +859,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 17442,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 14,
@@ -814,7 +886,7 @@
       "category": "ai",
       "features": {
         "call-complexity": {
-          "value": 58,
+          "value": 32,
           "weight": 0.05
         },
         "access": {
@@ -836,6 +908,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 18036,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -859,7 +935,7 @@
       "category": "aj",
       "features": {
         "call-complexity": {
-          "value": 38,
+          "value": 24,
           "weight": 0.05
         },
         "access": {
@@ -881,6 +957,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 6763,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -904,7 +984,7 @@
       "category": "ak",
       "features": {
         "call-complexity": {
-          "value": 303,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -926,6 +1006,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1600,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -949,7 +1033,7 @@
       "category": "al",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 21,
           "weight": 0.05
         },
         "access": {
@@ -971,6 +1055,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 16168,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 10,
@@ -994,7 +1082,7 @@
       "category": "am",
       "features": {
         "call-complexity": {
-          "value": 188,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -1016,6 +1104,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1963,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -1039,7 +1131,7 @@
       "category": "an",
       "features": {
         "call-complexity": {
-          "value": 108,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -1061,6 +1153,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -1084,7 +1180,7 @@
       "category": "ao",
       "features": {
         "call-complexity": {
-          "value": 32,
+          "value": 159,
           "weight": 0.05
         },
         "access": {
@@ -1106,6 +1202,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 95732,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 42,
@@ -1129,7 +1229,7 @@
       "category": "ap",
       "features": {
         "call-complexity": {
-          "value": 21,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -1151,6 +1251,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 14880,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 59,
@@ -1174,7 +1278,7 @@
       "category": "aq",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -1196,6 +1300,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 4136,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -1219,7 +1327,7 @@
       "category": "as",
       "features": {
         "call-complexity": {
-          "value": 108,
+          "value": 10,
           "weight": 0.05
         },
         "access": {
@@ -1241,6 +1349,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 8118,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -1264,7 +1376,7 @@
       "category": "at",
       "features": {
         "call-complexity": {
-          "value": 189,
+          "value": 13,
           "weight": 0.05
         },
         "access": {
@@ -1286,6 +1398,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 10727,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -1309,7 +1425,7 @@
       "category": "au",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -1331,6 +1447,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1463,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -1377,6 +1497,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 5,
           "weight": 1.0
@@ -1399,7 +1523,7 @@
       "category": "ax",
       "features": {
         "call-complexity": {
-          "value": 72,
+          "value": 132,
           "weight": 0.05
         },
         "access": {
@@ -1421,6 +1545,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 142527,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 45,
@@ -1444,7 +1572,7 @@
       "category": "az",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -1466,6 +1594,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1463,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -1489,7 +1621,7 @@
       "category": "ba",
       "features": {
         "call-complexity": {
-          "value": 19,
+          "value": 22,
           "weight": 0.05
         },
         "access": {
@@ -1511,6 +1643,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 11886,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -1534,7 +1670,7 @@
       "category": "bb",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 20,
           "weight": 0.05
         },
         "access": {
@@ -1556,6 +1692,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 25452,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -1579,7 +1719,7 @@
       "category": "bc",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 25,
           "weight": 0.05
         },
         "access": {
@@ -1601,6 +1741,10 @@
         "ifaces": {
           "value": 2,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 37532,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -1624,7 +1768,7 @@
       "category": "bd",
       "features": {
         "call-complexity": {
-          "value": 25,
+          "value": 48,
           "weight": 0.05
         },
         "access": {
@@ -1646,6 +1790,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 61564,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -1669,7 +1817,7 @@
       "category": "be",
       "features": {
         "call-complexity": {
-          "value": 11,
+          "value": 55,
           "weight": 0.05
         },
         "access": {
@@ -1691,6 +1839,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 104674,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 17,
@@ -1714,7 +1866,7 @@
       "category": "bf",
       "features": {
         "call-complexity": {
-          "value": 9,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -1736,6 +1888,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1663,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -1759,7 +1915,7 @@
       "category": "bg",
       "features": {
         "call-complexity": {
-          "value": 17,
+          "value": 59,
           "weight": 0.05
         },
         "access": {
@@ -1781,6 +1937,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 96221,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 16,
@@ -1804,7 +1964,7 @@
       "category": "bh",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 9,
           "weight": 0.05
         },
         "access": {
@@ -1826,6 +1986,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 15404,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 11,
@@ -1849,7 +2013,7 @@
       "category": "bi",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 24,
           "weight": 0.05
         },
         "access": {
@@ -1865,12 +2029,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 54,
+          "value": 24,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -1894,7 +2062,7 @@
       "category": "bj",
       "features": {
         "call-complexity": {
-          "value": 9,
+          "value": 21,
           "weight": 0.05
         },
         "access": {
@@ -1916,6 +2084,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 14932,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -1939,7 +2111,7 @@
       "category": "bk",
       "features": {
         "call-complexity": {
-          "value": 11,
+          "value": 60,
           "weight": 0.05
         },
         "access": {
@@ -1961,6 +2133,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21042,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 13,
@@ -1984,7 +2160,7 @@
       "category": "bl",
       "features": {
         "call-complexity": {
-          "value": 35,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -2006,6 +2182,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 6932,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -2029,7 +2209,7 @@
       "category": "bm",
       "features": {
         "call-complexity": {
-          "value": 20,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -2051,6 +2231,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3032,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -2074,7 +2258,7 @@
       "category": "bn",
       "features": {
         "call-complexity": {
-          "value": 85,
+          "value": 24,
           "weight": 0.05
         },
         "access": {
@@ -2096,6 +2280,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 27288,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -2119,7 +2307,7 @@
       "category": "bo",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 19,
           "weight": 0.05
         },
         "access": {
@@ -2141,6 +2329,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5196,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -2164,7 +2356,7 @@
       "category": "bq",
       "features": {
         "call-complexity": {
-          "value": 11,
+          "value": 41,
           "weight": 0.05
         },
         "access": {
@@ -2186,6 +2378,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 13148,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -2209,7 +2405,7 @@
       "category": "br",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 23,
           "weight": 0.05
         },
         "access": {
@@ -2231,6 +2427,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 55541,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -2254,7 +2454,7 @@
       "category": "bs",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -2276,6 +2476,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 4614,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -2299,7 +2503,7 @@
       "category": "bt",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 45,
           "weight": 0.05
         },
         "access": {
@@ -2321,6 +2525,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 26288,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -2344,7 +2552,7 @@
       "category": "bu",
       "features": {
         "call-complexity": {
-          "value": 6,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -2366,6 +2574,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -2389,7 +2601,7 @@
       "category": "bv",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 47,
           "weight": 0.05
         },
         "access": {
@@ -2411,6 +2623,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 47920,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -2434,7 +2650,7 @@
       "category": "bw",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -2450,12 +2666,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 33,
+          "value": 7,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -2479,7 +2699,7 @@
       "category": "bx",
       "features": {
         "call-complexity": {
-          "value": 18,
+          "value": 302,
           "weight": 0.05
         },
         "access": {
@@ -2501,6 +2721,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 302094,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 15,
@@ -2524,7 +2748,7 @@
       "category": "by",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 11,
           "weight": 0.05
         },
         "access": {
@@ -2546,6 +2770,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 400,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -2569,7 +2797,7 @@
       "category": "bz",
       "features": {
         "call-complexity": {
-          "value": 23,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -2591,6 +2819,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 908,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -2614,7 +2846,7 @@
       "category": "ca",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 263,
           "weight": 0.05
         },
         "access": {
@@ -2636,6 +2868,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 326940,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 42,
@@ -2659,7 +2895,7 @@
       "category": "cb",
       "features": {
         "call-complexity": {
-          "value": 136,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -2681,6 +2917,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 6705,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -2704,7 +2944,7 @@
       "category": "cc",
       "features": {
         "call-complexity": {
-          "value": 41,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -2726,6 +2966,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 600,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 9,
@@ -2749,7 +2993,7 @@
       "category": "cd",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -2771,6 +3015,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3659,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -2794,7 +3042,7 @@
       "category": "a",
       "features": {
         "call-complexity": {
-          "value": 107,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -2817,6 +3065,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 600,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 12,
           "weight": 1.0
@@ -2836,55 +3088,10 @@
       }
     },
     {
-      "category": "b",
-      "features": {
-        "call-complexity": {
-          "value": 374,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 33,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 2562,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 1,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 1,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "fields": {
-          "value": 4,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 4,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "ce",
       "features": {
         "call-complexity": {
-          "value": 29,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -2907,6 +3114,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 600,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 14,
           "weight": 1.0
@@ -2926,10 +3137,59 @@
       }
     },
     {
+      "category": "b",
+      "features": {
+        "call-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 2562,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 300,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
+          "weight": 1.0
+        }
+      }
+    },
+    {
       "category": "c",
       "features": {
         "call-complexity": {
-          "value": 6,
+          "value": 14,
           "weight": 0.05
         },
         "access": {
@@ -2951,6 +3211,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 18144,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -2974,7 +3238,7 @@
       "category": "cf",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 13,
           "weight": 0.05
         },
         "access": {
@@ -2996,6 +3260,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 28248,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -3019,7 +3287,7 @@
       "category": "cg",
       "features": {
         "call-complexity": {
-          "value": 20,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -3041,6 +3309,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 900,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -3064,7 +3336,7 @@
       "category": "d",
       "features": {
         "call-complexity": {
-          "value": 86,
+          "value": 18,
           "weight": 0.05
         },
         "access": {
@@ -3086,6 +3358,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 8008,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -3109,7 +3385,7 @@
       "category": "ch",
       "features": {
         "call-complexity": {
-          "value": 26,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -3131,6 +3407,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -3154,7 +3434,7 @@
       "category": "e",
       "features": {
         "call-complexity": {
-          "value": 114,
+          "value": 14,
           "weight": 0.05
         },
         "access": {
@@ -3176,6 +3456,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3016,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -3199,7 +3483,7 @@
       "category": "ci",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 54,
           "weight": 0.05
         },
         "access": {
@@ -3221,6 +3505,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 19492,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 10,
@@ -3244,7 +3532,7 @@
       "category": "f",
       "features": {
         "call-complexity": {
-          "value": 12,
+          "value": 21,
           "weight": 0.05
         },
         "access": {
@@ -3267,6 +3555,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 51620,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 25,
           "weight": 1.0
@@ -3286,55 +3578,10 @@
       }
     },
     {
-      "category": "cj",
-      "features": {
-        "call-complexity": {
-          "value": 25,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 49,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 2108,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 24,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 214,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "fields": {
-          "value": 7,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 3,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 2,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "g",
       "features": {
         "call-complexity": {
-          "value": 67,
+          "value": 86,
           "weight": 0.05
         },
         "access": {
@@ -3357,6 +3604,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 67093,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 26,
           "weight": 1.0
@@ -3376,10 +3627,10 @@
       }
     },
     {
-      "category": "ck",
+      "category": "cj",
       "features": {
         "call-complexity": {
-          "value": 42,
+          "value": 214,
           "weight": 0.05
         },
         "access": {
@@ -3387,23 +3638,27 @@
           "weight": 1.0
         },
         "field-weights": {
-          "value": 6842,
+          "value": 2108,
           "weight": 1.0
         },
         "methods": {
-          "value": 1,
+          "value": 24,
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 1,
+          "value": 214,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 111812,
+          "weight": 5.0E-4
+        },
         "fields": {
-          "value": 11,
+          "value": 7,
           "weight": 1.0
         },
         "extended": {
@@ -3411,7 +3666,7 @@
           "weight": 1.0
         },
         "parents": {
-          "value": 0,
+          "value": 3,
           "weight": 1.0
         },
         "unique-fields": {
@@ -3424,7 +3679,7 @@
       "category": "h",
       "features": {
         "call-complexity": {
-          "value": 107,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -3447,6 +3702,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 200,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 3,
           "weight": 1.0
@@ -3466,10 +3725,59 @@
       }
     },
     {
+      "category": "ck",
+      "features": {
+        "call-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 6842,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 600,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 11,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
       "category": "cl",
       "features": {
         "call-complexity": {
-          "value": 20,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -3491,6 +3799,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2400,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -3514,7 +3826,7 @@
       "category": "j",
       "features": {
         "call-complexity": {
-          "value": 104,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -3536,6 +3848,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1679,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -3559,7 +3875,7 @@
       "category": "cm",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 14,
           "weight": 0.05
         },
         "access": {
@@ -3581,6 +3897,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 18000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -3604,7 +3924,7 @@
       "category": "cn",
       "features": {
         "call-complexity": {
-          "value": 22,
+          "value": 41,
           "weight": 0.05
         },
         "access": {
@@ -3626,6 +3946,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 12412,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 15,
@@ -3649,7 +3973,7 @@
       "category": "k",
       "features": {
         "call-complexity": {
-          "value": 40,
+          "value": 68,
           "weight": 0.05
         },
         "access": {
@@ -3671,6 +3995,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 118808,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 9,
@@ -3694,7 +4022,7 @@
       "category": "co",
       "features": {
         "call-complexity": {
-          "value": 26,
+          "value": 671,
           "weight": 0.05
         },
         "access": {
@@ -3716,6 +4044,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 670506,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 11,
@@ -3739,7 +4071,7 @@
       "category": "m",
       "features": {
         "call-complexity": {
-          "value": 11,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -3761,6 +4093,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 11617,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 14,
@@ -3784,7 +4120,7 @@
       "category": "cp",
       "features": {
         "call-complexity": {
-          "value": 8,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -3806,6 +4142,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3980,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -3829,7 +4169,7 @@
       "category": "cq",
       "features": {
         "call-complexity": {
-          "value": 96,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -3851,6 +4191,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -3874,7 +4218,7 @@
       "category": "n",
       "features": {
         "call-complexity": {
-          "value": 83,
+          "value": 47,
           "weight": 0.05
         },
         "access": {
@@ -3896,6 +4240,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 36390,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -3919,7 +4267,7 @@
       "category": "cr",
       "features": {
         "call-complexity": {
-          "value": 48,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -3941,6 +4289,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -3964,7 +4316,7 @@
       "category": "o",
       "features": {
         "call-complexity": {
-          "value": 79,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -3986,6 +4338,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 6032,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -4009,7 +4365,7 @@
       "category": "cs",
       "features": {
         "call-complexity": {
-          "value": 8,
+          "value": 21,
           "weight": 0.05
         },
         "access": {
@@ -4021,16 +4377,20 @@
           "weight": 1.0
         },
         "methods": {
-          "value": 16,
+          "value": 8,
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 42,
+          "value": 21,
           "weight": 0.05
         },
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 30313,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -4054,7 +4414,7 @@
       "category": "ct",
       "features": {
         "call-complexity": {
-          "value": 42,
+          "value": 21,
           "weight": 0.05
         },
         "access": {
@@ -4076,6 +4436,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 12680,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -4099,7 +4463,7 @@
       "category": "q",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -4121,6 +4485,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5360,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -4144,7 +4512,7 @@
       "category": "cu",
       "features": {
         "call-complexity": {
-          "value": 87,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -4166,6 +4534,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -4189,7 +4561,7 @@
       "category": "s",
       "features": {
         "call-complexity": {
-          "value": 234,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4211,6 +4583,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -4234,7 +4610,7 @@
       "category": "cv",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -4256,6 +4632,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1200,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -4279,7 +4659,7 @@
       "category": "t",
       "features": {
         "call-complexity": {
-          "value": 169,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4301,6 +4681,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 11,
@@ -4324,7 +4708,7 @@
       "category": "cw",
       "features": {
         "call-complexity": {
-          "value": 46,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4347,6 +4731,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 6,
           "weight": 1.0
@@ -4366,55 +4754,10 @@
       }
     },
     {
-      "category": "cx",
-      "features": {
-        "call-complexity": {
-          "value": 41,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 33,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 1,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 5,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "fields": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 3,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 0,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "u",
       "features": {
         "call-complexity": {
-          "value": 234,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4437,6 +4780,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 6,
           "weight": 1.0
@@ -4456,10 +4803,59 @@
       }
     },
     {
+      "category": "cx",
+      "features": {
+        "call-complexity": {
+          "value": 5,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 5,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 4480,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
+          "weight": 1.0
+        }
+      }
+    },
+    {
       "category": "cy",
       "features": {
         "call-complexity": {
-          "value": 49,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4481,6 +4877,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2200,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -4504,7 +4904,7 @@
       "category": "v",
       "features": {
         "call-complexity": {
-          "value": 378,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -4526,6 +4926,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1063,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 7,
@@ -4549,7 +4953,7 @@
       "category": "cz",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4571,6 +4975,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2882,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 23,
@@ -4594,7 +5002,7 @@
       "category": "w",
       "features": {
         "call-complexity": {
-          "value": 465,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4616,6 +5024,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -4639,7 +5051,7 @@
       "category": "x",
       "features": {
         "call-complexity": {
-          "value": 188,
+          "value": 9,
           "weight": 0.05
         },
         "access": {
@@ -4661,6 +5073,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2800,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -4684,7 +5100,7 @@
       "category": "y",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 13,
           "weight": 0.05
         },
         "access": {
@@ -4706,6 +5122,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2400,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -4729,7 +5149,7 @@
       "category": "da",
       "features": {
         "call-complexity": {
-          "value": 23,
+          "value": 48,
           "weight": 0.05
         },
         "access": {
@@ -4751,6 +5171,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9148,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -4774,7 +5198,7 @@
       "category": "db",
       "features": {
         "call-complexity": {
-          "value": 42,
+          "value": 16,
           "weight": 0.05
         },
         "access": {
@@ -4790,12 +5214,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 3,
+          "value": 16,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -4819,7 +5247,7 @@
       "category": "dc",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -4841,6 +5269,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 7632,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -4864,7 +5296,7 @@
       "category": "dd",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 8,
           "weight": 0.05
         },
         "access": {
@@ -4886,6 +5318,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -4909,7 +5345,7 @@
       "category": "df",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -4925,12 +5361,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 12,
+          "value": 4,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 200,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -4954,7 +5394,7 @@
       "category": "di",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -4976,6 +5416,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5544,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 38,
@@ -4999,7 +5443,7 @@
       "category": "dk",
       "features": {
         "call-complexity": {
-          "value": 17,
+          "value": 313,
           "weight": 0.05
         },
         "access": {
@@ -5021,6 +5465,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 323331,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 28,
@@ -5044,7 +5492,7 @@
       "category": "dm",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 4,
           "weight": 0.05
         },
         "access": {
@@ -5060,12 +5508,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 205,
+          "value": 4,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -5089,7 +5541,7 @@
       "category": "dr",
       "features": {
         "call-complexity": {
-          "value": 16,
+          "value": 109,
           "weight": 0.05
         },
         "access": {
@@ -5111,6 +5563,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 90324,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -5134,7 +5590,7 @@
       "category": "ds",
       "features": {
         "call-complexity": {
-          "value": 38,
+          "value": 99,
           "weight": 0.05
         },
         "access": {
@@ -5156,6 +5612,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 10928,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -5179,7 +5639,7 @@
       "category": "du",
       "features": {
         "call-complexity": {
-          "value": 2,
+          "value": 13,
           "weight": 0.05
         },
         "access": {
@@ -5201,6 +5661,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 20736,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -5224,7 +5688,7 @@
       "category": "Utilities",
       "features": {
         "call-complexity": {
-          "value": 9,
+          "value": 7024,
           "weight": 0.05
         },
         "access": {
@@ -5246,6 +5710,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 7058893,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -5269,7 +5737,7 @@
       "category": "dw",
       "features": {
         "call-complexity": {
-          "value": 22,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -5291,6 +5759,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 18,
@@ -5314,7 +5786,7 @@
       "category": "dx",
       "features": {
         "call-complexity": {
-          "value": 57,
+          "value": 11,
           "weight": 0.05
         },
         "access": {
@@ -5336,6 +5808,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 8855,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -5382,6 +5858,10 @@
           "value": 1,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 0,
           "weight": 1.0
@@ -5404,7 +5884,7 @@
       "category": "eb",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -5426,6 +5906,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 300,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -5449,7 +5933,7 @@
       "category": "ed",
       "features": {
         "call-complexity": {
-          "value": 12,
+          "value": 28,
           "weight": 0.05
         },
         "access": {
@@ -5471,6 +5955,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 14000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -5517,6 +6005,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 3000,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 1,
           "weight": 1.0
@@ -5539,7 +6031,7 @@
       "category": "ef",
       "features": {
         "call-complexity": {
-          "value": 8,
+          "value": 39,
           "weight": 0.05
         },
         "access": {
@@ -5561,6 +6053,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 37072,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -5584,7 +6080,7 @@
       "category": "eg",
       "features": {
         "call-complexity": {
-          "value": 188,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -5606,6 +6102,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3408,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -5629,7 +6129,7 @@
       "category": "eh",
       "features": {
         "call-complexity": {
-          "value": 6,
+          "value": 477,
           "weight": 0.05
         },
         "access": {
@@ -5651,6 +6151,10 @@
         "ifaces": {
           "value": 3,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 342454,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -5674,7 +6178,7 @@
       "category": "ei",
       "features": {
         "call-complexity": {
-          "value": 27,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -5696,6 +6200,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5352,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -5719,7 +6227,7 @@
       "category": "ej",
       "features": {
         "call-complexity": {
-          "value": 2,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -5741,6 +6249,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 8352,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -5764,7 +6276,7 @@
       "category": "ek",
       "features": {
         "call-complexity": {
-          "value": 33,
+          "value": 17,
           "weight": 0.05
         },
         "access": {
@@ -5786,6 +6298,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 39888,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -5809,7 +6325,7 @@
       "category": "el",
       "features": {
         "call-complexity": {
-          "value": 174,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -5831,6 +6347,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 7120,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -5854,7 +6374,7 @@
       "category": "eo",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 52,
           "weight": 0.05
         },
         "access": {
@@ -5876,6 +6396,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 69096,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -5899,7 +6423,7 @@
       "category": "eq",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 12,
           "weight": 0.05
         },
         "access": {
@@ -5921,6 +6445,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 3900,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -5944,7 +6472,7 @@
       "category": "er",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 23,
           "weight": 0.05
         },
         "access": {
@@ -5966,6 +6494,10 @@
         "ifaces": {
           "value": 3,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 20968,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -5989,7 +6521,7 @@
       "category": "es",
       "features": {
         "call-complexity": {
-          "value": 10,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -6005,12 +6537,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 4,
+          "value": 7,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -6034,7 +6570,7 @@
       "category": "et",
       "features": {
         "call-complexity": {
-          "value": 20,
+          "value": 3,
           "weight": 0.05
         },
         "access": {
@@ -6050,12 +6586,16 @@
           "weight": 0.25
         },
         "method-complexity": {
-          "value": 17,
+          "value": 3,
           "weight": 0.05
         },
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -6079,7 +6619,7 @@
       "category": "eu",
       "features": {
         "call-complexity": {
-          "value": 40,
+          "value": 31,
           "weight": 0.05
         },
         "access": {
@@ -6101,6 +6641,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 39849,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 10,
@@ -6124,7 +6668,7 @@
       "category": "ey",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -6146,6 +6690,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1900,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -6169,7 +6717,7 @@
       "category": "ez",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 31,
           "weight": 0.05
         },
         "access": {
@@ -6191,6 +6739,10 @@
         "ifaces": {
           "value": 2,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21213,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -6214,7 +6766,7 @@
       "category": "fa",
       "features": {
         "call-complexity": {
-          "value": 6,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -6236,6 +6788,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -6259,7 +6815,7 @@
       "category": "fb",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -6281,6 +6837,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -6327,6 +6887,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 0,
           "weight": 1.0
@@ -6349,7 +6913,7 @@
       "category": "fd",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 83,
           "weight": 0.05
         },
         "access": {
@@ -6371,6 +6935,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 31395,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -6394,7 +6962,7 @@
       "category": "fe",
       "features": {
         "call-complexity": {
-          "value": 48,
+          "value": 114,
           "weight": 0.05
         },
         "access": {
@@ -6416,6 +6984,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 115554,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 9,
@@ -6439,7 +7011,7 @@
       "category": "ff",
       "features": {
         "call-complexity": {
-          "value": 2,
+          "value": 8,
           "weight": 0.05
         },
         "access": {
@@ -6461,6 +7033,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 18764,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -6484,7 +7060,7 @@
       "category": "fn",
       "features": {
         "call-complexity": {
-          "value": 29,
+          "value": 56,
           "weight": 0.05
         },
         "access": {
@@ -6506,6 +7082,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 52324,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 24,
@@ -6529,7 +7109,7 @@
       "category": "fp",
       "features": {
         "call-complexity": {
-          "value": 20,
+          "value": 109,
           "weight": 0.05
         },
         "access": {
@@ -6551,6 +7131,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 74488,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 15,
@@ -6574,7 +7158,7 @@
       "category": "fr",
       "features": {
         "call-complexity": {
-          "value": 55,
+          "value": 155,
           "weight": 0.05
         },
         "access": {
@@ -6596,6 +7180,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 185549,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 136,
@@ -6619,7 +7207,7 @@
       "category": "fs",
       "features": {
         "call-complexity": {
-          "value": 91,
+          "value": 100,
           "weight": 0.05
         },
         "access": {
@@ -6641,6 +7229,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 45783,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 6,
@@ -6687,6 +7279,10 @@
           "value": 0,
           "weight": 1.0
         },
+        "weighted-calls": {
+          "value": 252000,
+          "weight": 5.0E-4
+        },
         "fields": {
           "value": 0,
           "weight": 1.0
@@ -6709,7 +7305,7 @@
       "category": "fv",
       "features": {
         "call-complexity": {
-          "value": 46,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -6731,6 +7327,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2140,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -6754,7 +7354,7 @@
       "category": "fx",
       "features": {
         "call-complexity": {
-          "value": 12,
+          "value": 5,
           "weight": 0.05
         },
         "access": {
@@ -6776,6 +7376,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5664,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -6799,7 +7403,7 @@
       "category": "fy",
       "features": {
         "call-complexity": {
-          "value": 14,
+          "value": 92,
           "weight": 0.05
         },
         "access": {
@@ -6821,6 +7425,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21746,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -6844,7 +7452,7 @@
       "category": "client",
       "features": {
         "call-complexity": {
-          "value": 58,
+          "value": 536,
           "weight": 0.05
         },
         "access": {
@@ -6866,6 +7474,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 1106129,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -6889,7 +7501,7 @@
       "category": "ga",
       "features": {
         "call-complexity": {
-          "value": 4,
+          "value": 8,
           "weight": 0.05
         },
         "access": {
@@ -6911,6 +7523,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 2464,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -6934,7 +7550,7 @@
       "category": "gb",
       "features": {
         "call-complexity": {
-          "value": 58,
+          "value": 8,
           "weight": 0.05
         },
         "access": {
@@ -6956,6 +7572,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21280,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -6979,7 +7599,7 @@
       "category": "gc",
       "features": {
         "call-complexity": {
-          "value": 49,
+          "value": 16,
           "weight": 0.05
         },
         "access": {
@@ -7001,6 +7621,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 47524,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -7024,7 +7648,7 @@
       "category": "ge",
       "features": {
         "call-complexity": {
-          "value": 156,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -7046,6 +7670,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 300,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -7069,7 +7697,7 @@
       "category": "gg",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 3,
           "weight": 0.05
         },
         "access": {
@@ -7091,6 +7719,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9351,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -7114,7 +7746,7 @@
       "category": "gh",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 71,
           "weight": 0.05
         },
         "access": {
@@ -7136,6 +7768,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 111131,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -7159,7 +7795,7 @@
       "category": "gi",
       "features": {
         "call-complexity": {
-          "value": 110,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -7181,6 +7817,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 16440,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -7204,7 +7844,7 @@
       "category": "gj",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 215,
           "weight": 0.05
         },
         "access": {
@@ -7226,6 +7866,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 272009,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 27,
@@ -7249,7 +7893,7 @@
       "category": "gk",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 11,
           "weight": 0.05
         },
         "access": {
@@ -7271,6 +7915,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 38160,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -7294,7 +7942,7 @@
       "category": "gl",
       "features": {
         "call-complexity": {
-          "value": 3,
+          "value": 45,
           "weight": 0.05
         },
         "access": {
@@ -7316,6 +7964,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 58398,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,
@@ -7339,7 +7991,7 @@
       "category": "gm",
       "features": {
         "call-complexity": {
-          "value": 59,
+          "value": 11,
           "weight": 0.05
         },
         "access": {
@@ -7361,6 +8013,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 33096,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -7384,7 +8040,7 @@
       "category": "gn",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 3,
           "weight": 0.05
         },
         "access": {
@@ -7406,6 +8062,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9540,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -7429,7 +8089,7 @@
       "category": "go",
       "features": {
         "call-complexity": {
-          "value": 102,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -7451,6 +8111,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 29092,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -7474,7 +8138,7 @@
       "category": "gp",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -7496,6 +8160,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21120,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -7519,7 +8187,7 @@
       "category": "gr",
       "features": {
         "call-complexity": {
-          "value": 26,
+          "value": 19,
           "weight": 0.05
         },
         "access": {
@@ -7541,6 +8209,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 62776,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 2,
@@ -7564,7 +8236,7 @@
       "category": "gs",
       "features": {
         "call-complexity": {
-          "value": 2,
+          "value": 12,
           "weight": 0.05
         },
         "access": {
@@ -7586,6 +8258,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 49224,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 4,
@@ -7609,7 +8285,7 @@
       "category": "gt",
       "features": {
         "call-complexity": {
-          "value": 7,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -7631,6 +8307,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 108,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -7654,7 +8334,7 @@
       "category": "gu",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 7,
           "weight": 0.05
         },
         "access": {
@@ -7676,6 +8356,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21188,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -7699,7 +8383,7 @@
       "category": "gv",
       "features": {
         "call-complexity": {
-          "value": 22,
+          "value": 10,
           "weight": 0.05
         },
         "access": {
@@ -7721,6 +8405,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 17537,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 5,
@@ -7744,7 +8432,7 @@
       "category": "gw",
       "features": {
         "call-complexity": {
-          "value": 5,
+          "value": 2,
           "weight": 0.05
         },
         "access": {
@@ -7766,6 +8454,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 4237,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 21,
@@ -7789,7 +8481,7 @@
       "category": "gx",
       "features": {
         "call-complexity": {
-          "value": 31,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -7811,6 +8503,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 9,
@@ -7834,7 +8530,7 @@
       "category": "gz",
       "features": {
         "call-complexity": {
-          "value": 76,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -7856,6 +8552,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 23320,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 1,
@@ -7879,7 +8579,7 @@
       "category": "ha",
       "features": {
         "call-complexity": {
-          "value": 13,
+          "value": 15,
           "weight": 0.05
         },
         "access": {
@@ -7901,6 +8601,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 21000,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -7924,7 +8628,7 @@
       "category": "hb",
       "features": {
         "call-complexity": {
-          "value": 1,
+          "value": 6,
           "weight": 0.05
         },
         "access": {
@@ -7946,6 +8650,10 @@
         "ifaces": {
           "value": 1,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 5392,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 0,
@@ -7969,7 +8677,7 @@
       "category": "hc",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 77,
           "weight": 0.05
         },
         "access": {
@@ -7991,6 +8699,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 107970,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 11,
@@ -8014,7 +8726,7 @@
       "category": "he",
       "features": {
         "call-complexity": {
-          "value": 15,
+          "value": 3,
           "weight": 0.05
         },
         "access": {
@@ -8036,6 +8748,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 9576,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 3,
@@ -8059,7 +8775,7 @@
       "category": "hf",
       "features": {
         "call-complexity": {
-          "value": 309,
+          "value": 1,
           "weight": 0.05
         },
         "access": {
@@ -8081,6 +8797,10 @@
         "ifaces": {
           "value": 0,
           "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 0,
+          "weight": 5.0E-4
         },
         "fields": {
           "value": 8,

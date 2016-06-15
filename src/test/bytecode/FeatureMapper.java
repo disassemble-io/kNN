@@ -17,9 +17,12 @@ import java.util.Map;
 public class FeatureMapper {
 
     private static final String JAR = "114-deob.jar";
-    private static final String OUT_FILE = "114CF.gson";
+
+    private static final String CLASS_OUT_FILE = "114CF.gson";
+    private static final String FIELD_OUT_FILE = "114FF.gson";
 
     private Map<String, ClassFactory> classes;
+    private KNN classKNN;
 
     @Before
     public void setup() throws Exception {
@@ -33,7 +36,23 @@ public class FeatureMapper {
         long start = System.nanoTime();
         FeatureSet[] sets = ClassFeatures.spawnAll(classes);
         long end = System.nanoTime();
-        System.out.printf("created feature sets in %.4f seconds\n", (end - start) / 1e9);
-        new KNN(sets).writeJSON(Resources.path(OUT_FILE));
+        System.out.printf("created class feature sets in %.4f seconds\n", (end - start) / 1e9);
+        classKNN = new KNN(sets);
+        classKNN.writeJSON(Resources.path(CLASS_OUT_FILE));
+    }
+
+    @Test
+    public void mapFieldsToJSON() throws URISyntaxException, IOException {
+        long start = System.nanoTime();
+        FeatureSet[] sets = FieldFeatures.spawnAll(classes, classKNN);
+        long end = System.nanoTime();
+        System.out.printf("created field feature sets in %.4f seconds\n", (end - start) / 1e9);
+        new KNN(sets).writeJSON(Resources.path(FIELD_OUT_FILE));
+    }
+
+    @Test
+    public void map() throws Exception {
+        mapClassesToJSON();
+        mapFieldsToJSON();
     }
 }

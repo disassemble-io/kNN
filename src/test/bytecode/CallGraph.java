@@ -15,20 +15,60 @@ import java.util.Map;
  */
 public class CallGraph {
 
-    private final Map<String, List<ClassMethod>> calls = new HashMap<>();
+    private final Map<String, List<ClassMethod>> classCalls = new HashMap<>();
+    private final Map<String, Integer> classCallCounts = new HashMap<>();
+    private final Map<String, List<ClassMethod>> fieldCalls = new HashMap<>();
+    private final Map<String, Integer> fieldCallCounts = new HashMap<>();
+    private final Map<String, List<ClassMethod>> methodCalls = new HashMap<>();
+    private final Map<String, Integer> methodCallCounts = new HashMap<>();
 
-    public void addCall(String factory, ClassMethod method) {
-        if (!calls.containsKey(factory)) {
-            calls.put(factory, new ArrayList<>());
+    private void addCall(String key, Map<String, List<ClassMethod>> map, Map<String, Integer> counts,
+                        ClassMethod method) {
+        if (!map.containsKey(key)) {
+            map.put(key, new ArrayList<>());
+            counts.put(key, 0);
         }
-        List<ClassMethod> methods = calls.get(factory);
+        counts.put(key, counts.get(key) + 1);
+        List<ClassMethod> methods = map.get(key);
         if (!methods.contains(method)) {
             methods.add(method);
         }
     }
 
-    public Map<String, List<ClassMethod>> calls() {
-        return calls;
+    public void addClassCall(String factoryKey, ClassMethod method) {
+        addCall(factoryKey, classCalls, classCallCounts, method);
+    }
+
+    public void addFieldCall(String fieldKey, ClassMethod method) {
+        addCall(fieldKey, fieldCalls, fieldCallCounts, method);
+    }
+
+    public void addMethodCall(String methodKey, ClassMethod method) {
+        addCall(methodKey, methodCalls, methodCallCounts, method);
+    }
+
+    public Map<String, List<ClassMethod>> classes() {
+        return classCalls;
+    }
+
+    public int countOfClass(String classKey) {
+        return classCallCounts.containsKey(classKey) ? classCallCounts.get(classKey) : 0;
+    }
+
+    public Map<String, List<ClassMethod>> fields() {
+        return fieldCalls;
+    }
+
+    public int countOfField(String fieldKey) {
+        return fieldCallCounts.containsKey(fieldKey) ? fieldCallCounts.get(fieldKey) : 0;
+    }
+
+    public Map<String, List<ClassMethod>> methods() {
+        return methodCalls;
+    }
+
+    public int countOfMethod(String methodKey) {
+        return methodCallCounts.containsKey(methodKey) ? methodCallCounts.get(methodKey) : 0;
     }
 
     public static CallGraph build(Map<String, ClassFactory> classes, boolean includeFields) {
@@ -36,12 +76,16 @@ public class CallGraph {
         ClassMethodVisitor callVisitor = new ClassMethodVisitor() {
             public void visitMethodInsn(MethodInsnNode min) {
                 if (classes.containsKey(min.owner)) {
-                    graph.addCall(min.owner, method);
+                    graph.addClassCall(min.owner, method);
+                    graph.addMethodCall(min.owner + "." + min.name + min.desc, method);
                 }
             }
             public void visitFieldInsn(FieldInsnNode fin) {
                 if (includeFields && classes.containsKey(fin.owner)) {
-                    graph.addCall(fin.owner, method);
+                    graph.addClassCall(fin.owner, method);
+                }
+                if (classes.containsKey(fin.owner)) {
+                    graph.addFieldCall(fin.owner + "." + fin.name, method);
                 }
             }
         };

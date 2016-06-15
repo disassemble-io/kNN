@@ -33,6 +33,16 @@ public class FeatureSet {
     }
 
     @SuppressWarnings("unchecked")
+    public <T> Feature<T> findFeature(String key) {
+        for (Feature feature : features) {
+            if (feature.key.equals(key)) {
+                return (Feature<T>) feature;
+            }
+        }
+        return null;
+    }
+
+    @SuppressWarnings("unchecked")
     public double distanceTo(FeatureSet set) {
         if (features.length != set.features.length) {
             throw new IllegalArgumentException("Different features");

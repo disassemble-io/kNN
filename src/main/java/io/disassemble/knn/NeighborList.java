@@ -21,6 +21,9 @@ public class NeighborList {
     public String classify() {
         HashMap<String, Double> distances = new HashMap<>();
         for (Neighbor neighbor : neighbors) {
+            if (neighbor == null) {
+                continue;
+            }
             double distance = (1D / neighbor.set.distanceTo(classifier));
             if (!distances.containsKey(neighbor.set.category)) {
                 distances.put(neighbor.set.category, distance);

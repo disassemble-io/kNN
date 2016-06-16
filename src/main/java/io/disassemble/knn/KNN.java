@@ -32,20 +32,38 @@ public class KNN {
     public NeighborList compute(int k, FeatureSet likely) {
         List<Neighbor> results = Arrays.asList(new Neighbor[k]);
         for (FeatureSet set : sets) {
-            double setDistance = set.distanceTo(likely);
-            if (results.isEmpty()) {
-                results.add(new Neighbor(set, setDistance));
-            } else {
-                for (int i = 0; i < results.size(); i++) {
-                    Neighbor neighbor = results.get(i);
-                    if (neighbor == null || setDistance < neighbor.set.distanceTo(likely)) {
-                        results.set(i, new Neighbor(set, setDistance));
-                        break;
-                    }
+            double distance = set.distanceTo(likely);
+            for (int i = 0; i < results.size(); i++) {
+                Neighbor neighbor = results.get(i);
+                boolean closer = (neighbor != null && distance < neighbor.set.distanceTo(likely));
+                int pos = (isFull(results) && closer ? i : findInsertPosition(results, distance));
+                if (pos != -1) {
+                    Collections.rotate(results.subList(pos, results.size()), 1);
+                    results.set(pos, new Neighbor(set, distance));
+                    break;
                 }
             }
         }
         return new NeighborList(results, likely);
+    }
+
+    private boolean isFull(List list) {
+        for (Object o : list) {
+            if (o == null) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private int findInsertPosition(List<Neighbor> neighbors, double distance) {
+        for (int idx = 0; idx < neighbors.size(); idx++) {
+            Neighbor neighbor = neighbors.get(idx);
+            if (neighbor == null || distance < neighbor.distance) {
+                return idx;
+            }
+        }
+        return -1;
     }
 
     public FeatureSet findSet(String category) {

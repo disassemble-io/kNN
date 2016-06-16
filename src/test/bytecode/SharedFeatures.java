@@ -40,7 +40,7 @@ public class SharedFeatures {
         return weightOfFactory(classes, factory, true);
     }
 
-    public static int weightOfDesc(Map<String, ClassFactory> classes, String desc) {
+    public static int weightOfDesc(Map<String, ClassFactory> classes, String desc, boolean factoryWeight) {
         int weight = 0;
         if (desc.endsWith("B")) {
             weight += 100;
@@ -62,9 +62,11 @@ public class SharedFeatures {
             weight += 900;
         } else if (desc.endsWith(";")) {
             weight += 1000;
-            String factory = desc.split("L")[1].split(";")[0];
-            if (classes.containsKey(factory)) {
-                weight += weightOfFactory(classes, factory);
+            if (factoryWeight) {
+                String factory = desc.split("L")[1].split(";")[0];
+                if (classes.containsKey(factory)) {
+                    weight += weightOfFactory(classes, factory);
+                }
             }
         }
         int lastIdx = desc.lastIndexOf('[');
@@ -74,6 +76,10 @@ public class SharedFeatures {
         int count = Math.max(0, lastIdx);
         weight += (8 * count);
         return weight;
+    }
+
+    public static int weightOfDesc(Map<String, ClassFactory> classes, String desc) {
+        return weightOfDesc(classes, desc, true);
     }
 
     public static int fieldWeights(Map<String, ClassFactory> classes, ClassFactory cf) {

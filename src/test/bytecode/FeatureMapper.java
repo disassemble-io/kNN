@@ -16,10 +16,10 @@ import java.util.Map;
  */
 public class FeatureMapper {
 
-    private static final String JAR = "114-deob.jar";
+    private static final String JAR = "115-deob.jar";
 
-    private static final String CLASS_OUT_FILE = "114CF.gson";
-    private static final String FIELD_OUT_FILE = "114FF.gson";
+    private static final String CLASS_OUT_FILE = "115CF.gson";
+    private static final String FIELD_OUT_FILE = "115FF.gson";
 
     private Map<String, ClassFactory> classes;
     private KNN classKNN;

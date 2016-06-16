@@ -94,7 +94,7 @@ public class ByteKNN {
                 KNN nKNN = newNormNetwork.get(classMapping.get(oldKey));
                 List<String> categories = new ArrayList<>();
                 for (FeatureSet lookup : oKNN.sets) {
-                    NeighborList neighbors = nKNN.compute(3, lookup);
+                    NeighborList neighbors = nKNN.compute(5, lookup);
                     String category = neighbors.classify();
                     if (categories.contains(category)) {
                         for (Neighbor neighbor : neighbors.neighbors) {
@@ -106,6 +106,7 @@ public class ByteKNN {
                     }
                     if (oldKey.equals("hx")) {
                         System.out.println(lookup.category + " -> " + category);
+                        System.out.println("  " + lookup);
                         for (Neighbor neighbor : neighbors.neighbors) {
                             System.out.println("  " + neighbor);
                         }

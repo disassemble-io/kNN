@@ -3088,55 +3088,6 @@
       }
     },
     {
-      "category": "b",
-      "features": {
-        "call-complexity": {
-          "value": 1,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 33,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 2562,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 1,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 1,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "weighted-calls": {
-          "value": 300,
-          "weight": 5.0E-4
-        },
-        "fields": {
-          "value": 4,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 4,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "ce",
       "features": {
         "call-complexity": {
@@ -3181,6 +3132,55 @@
         },
         "unique-fields": {
           "value": 2,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "b",
+      "features": {
+        "call-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 2562,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 1,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 300,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 4,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 4,
           "weight": 1.0
         }
       }
@@ -3578,55 +3578,6 @@
       }
     },
     {
-      "category": "cj",
-      "features": {
-        "call-complexity": {
-          "value": 214,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 49,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 2108,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 24,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 214,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "weighted-calls": {
-          "value": 111812,
-          "weight": 5.0E-4
-        },
-        "fields": {
-          "value": 7,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 3,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 2,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "g",
       "features": {
         "call-complexity": {
@@ -3671,6 +3622,55 @@
         },
         "unique-fields": {
           "value": 6,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cj",
+      "features": {
+        "call-complexity": {
+          "value": 214,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 49,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 2108,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 24,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 214,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 111812,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 7,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 2,
           "weight": 1.0
         }
       }
@@ -4754,55 +4754,6 @@
       }
     },
     {
-      "category": "cx",
-      "features": {
-        "call-complexity": {
-          "value": 5,
-          "weight": 0.05
-        },
-        "access": {
-          "value": 33,
-          "weight": 1.0
-        },
-        "field-weights": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "methods": {
-          "value": 1,
-          "weight": 0.25
-        },
-        "method-complexity": {
-          "value": 5,
-          "weight": 0.05
-        },
-        "ifaces": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "weighted-calls": {
-          "value": 4480,
-          "weight": 5.0E-4
-        },
-        "fields": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "extended": {
-          "value": 0,
-          "weight": 1.0
-        },
-        "parents": {
-          "value": 3,
-          "weight": 1.0
-        },
-        "unique-fields": {
-          "value": 0,
-          "weight": 1.0
-        }
-      }
-    },
-    {
       "category": "u",
       "features": {
         "call-complexity": {
@@ -4847,6 +4798,55 @@
         },
         "unique-fields": {
           "value": 3,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "category": "cx",
+      "features": {
+        "call-complexity": {
+          "value": 5,
+          "weight": 0.05
+        },
+        "access": {
+          "value": 33,
+          "weight": 1.0
+        },
+        "field-weights": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "methods": {
+          "value": 1,
+          "weight": 0.25
+        },
+        "method-complexity": {
+          "value": 5,
+          "weight": 0.05
+        },
+        "ifaces": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "weighted-calls": {
+          "value": 4480,
+          "weight": 5.0E-4
+        },
+        "fields": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "extended": {
+          "value": 0,
+          "weight": 1.0
+        },
+        "parents": {
+          "value": 3,
+          "weight": 1.0
+        },
+        "unique-fields": {
+          "value": 0,
           "weight": 1.0
         }
       }

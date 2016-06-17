@@ -26,7 +26,6 @@
             <groupId>com.github.disassemble-io</groupId>
             <artifactId>asm-framework-full</artifactId>
             <version>64ebb6c</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

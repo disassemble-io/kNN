@@ -16,6 +16,6 @@ public class DoubleFeature extends Feature<Double> {
 
     @Override
     public double distanceTo(Feature<Double> feature) {
-        return ((value - feature.value) * weight);
+        return (Math.abs(value - feature.value) * weight);
     }
 }

@@ -6,8 +6,12 @@ package io.disassemble.knn.feature;
  */
 public class BooleanFeature extends IntegerFeature {
 
+    public BooleanFeature(String key, boolean value, double weight) {
+        super(key, value ? 1 : 0, weight);
+    }
+
     public BooleanFeature(String key, boolean value) {
-        super(key, value ? 1 : 0, 1F);
+        this(key, value, 1D);
     }
 
     @Override

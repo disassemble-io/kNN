@@ -30,7 +30,7 @@ public class KNN {
     }
 
     public NeighborList compute(int k, FeatureSet likely) {
-        List<Neighbor> results = Arrays.asList(new Neighbor[k]);
+        List<Neighbor> results = new ArrayList<>(Arrays.asList(new Neighbor[k]));
         for (FeatureSet set : sets) {
             double distance = set.distanceTo(likely);
             for (int i = 0; i < results.size(); i++) {

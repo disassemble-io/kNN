@@ -47,6 +47,14 @@ public class KNN {
         return new NeighborList(results, likely);
     }
 
+    public Map<String, Neighbor> computeAssignmentsTo(KNN knn) {
+        Map<String, BijectiveNeighborList> mapping = new HashMap<>();
+        for (FeatureSet set : sets) {
+            mapping.put(set.category, new BijectiveNeighborList(knn.compute(knn.sets.length, set)));
+        }
+        return BijectiveNeighborList.assignAll(mapping);
+    }
+
     private boolean isFull(List list) {
         for (Object o : list) {
             if (o == null) {
